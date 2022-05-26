@@ -1,0 +1,6 @@
+framework module Pods_ViewCodeProject_ViewCodeProjectUITests {
+  umbrella header "Pods-ViewCodeProject-ViewCodeProjectUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

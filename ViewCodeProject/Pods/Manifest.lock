@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (5.6.1)
+  - lottie-ios (3.3.0)
+  - SDWebImage (5.12.5):
+    - SDWebImage/Core (= 5.12.5)
+  - SDWebImage/Core (5.12.5)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - lottie-ios
+  - SDWebImage
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - lottie-ios
+    - SDWebImage
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  lottie-ios: 6ac74dcc09904798f59b18cb3075c089d76be9ae
+  SDWebImage: 0905f1b7760fc8ac4198cae0036600d67478751e
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: 8aa59444195e6ab135964bd024b67d11b119199b
+
+COCOAPODS: 1.11.3
