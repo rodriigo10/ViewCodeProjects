@@ -47,6 +47,7 @@ class LoginViewController: UIViewController {
         loginBtn.layer.cornerRadius = 3
         loginBtn.backgroundColor = .systemRed
         loginBtn.layer.borderWidth = 0.3
+        
         loginBtn.addTarget(self, action: #selector(button), for: .touchUpInside)
         return loginBtn
     }()
