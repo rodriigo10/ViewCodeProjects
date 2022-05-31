@@ -10,6 +10,10 @@ target 'MoviesList' do
 pod "Alamofire"
 pod "SDWebImage"
 
+pod 'FirebaseAnalytics' 
+pod 'FirebaseAuth'
+pod 'FirebaseFirestore'
+
   target 'MoviesListTests' do
     inherit! :search_paths
     # Pods for testing
