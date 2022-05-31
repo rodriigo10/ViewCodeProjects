@@ -20,9 +20,7 @@
 		AC15DEFA284131190095B5EB /* MoviesListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC15DEF9284131190095B5EB /* MoviesListUITests.swift */; };
 		AC15DEFC284131190095B5EB /* MoviesListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC15DEFB284131190095B5EB /* MoviesListUITestsLaunchTests.swift */; };
 		AC5358992845A63D00C7D064 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5358982845A63D00C7D064 /* RegisterViewController.swift */; };
-		AC53589B2845C26200C7D064 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC53589A2845C26200C7D064 /* GoogleService-Info.plist */; };
-		AC53589D2845D69000C7D064 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC53589C2845D69000C7D064 /* Request.swift */; };
-		AC53589F2845D6C000C7D064 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC53589E2845D6C000C7D064 /* Movies.swift */; };
+		AC60FAF72845DCF900F04E63 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC60FAF62845DCF900F04E63 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,9 +64,7 @@
 		AC15DEF9284131190095B5EB /* MoviesListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListUITests.swift; sourceTree = "<group>"; };
 		AC15DEFB284131190095B5EB /* MoviesListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AC5358982845A63D00C7D064 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		AC53589A2845C26200C7D064 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
-		AC53589C2845D69000C7D064 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Request.swift; path = MoviesList/View/Request.swift; sourceTree = SOURCE_ROOT; };
-		AC53589E2845D6C000C7D064 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Movies.swift; path = MoviesList/View/Movies.swift; sourceTree = SOURCE_ROOT; };
+		AC60FAF62845DCF900F04E63 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,15 +120,12 @@
 		AC15DED7284130BF0095B5EB /* MoviesList */ = {
 			isa = PBXGroup;
 			children = (
-				AC15DF0D284131AD0095B5EB /* Request */,
-				AC15DF082841317A0095B5EB /* Model */,
-				AC15DF092841318A0095B5EB /* Controller */,
 				AC15DF0B2841319A0095B5EB /* View */,
 				AC15DF0C2841319D0095B5EB /* Resources */,
 				ACC46EC72843C38B00F2C3B0 /* Storyboard */,
 				AC15DED8284130BF0095B5EB /* AppDelegate.swift */,
 				AC15DEDA284130BF0095B5EB /* SceneDelegate.swift */,
-				AC53589A2845C26200C7D064 /* GoogleService-Info.plist */,
+				AC60FAF62845DCF900F04E63 /* GoogleService-Info.plist */,
 				AC15DEE6284131160095B5EB /* Info.plist */,
 			);
 			path = MoviesList;
@@ -155,21 +148,6 @@
 			path = MoviesListUITests;
 			sourceTree = "<group>";
 		};
-		AC15DF082841317A0095B5EB /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				AC53589E2845D6C000C7D064 /* Movies.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		AC15DF092841318A0095B5EB /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
 		AC15DF0B2841319A0095B5EB /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,14 +164,6 @@
 				AC15DEE3284131160095B5EB /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		AC15DF0D284131AD0095B5EB /* Request */ = {
-			isa = PBXGroup;
-			children = (
-				AC53589C2845D69000C7D064 /* Request.swift */,
-			);
-			path = Request;
 			sourceTree = "<group>";
 		};
 		ACC46EC72843C38B00F2C3B0 /* Storyboard */ = {
@@ -337,8 +307,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC15DEE5284131160095B5EB /* LaunchScreen.storyboard in Resources */,
+				AC60FAF72845DCF900F04E63 /* GoogleService-Info.plist in Resources */,
 				AC15DEE2284131160095B5EB /* Assets.xcassets in Resources */,
-				AC53589B2845C26200C7D064 /* GoogleService-Info.plist in Resources */,
 				AC15DEE0284130BF0095B5EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,8 +439,6 @@
 			files = (
 				AC15DEDD284130BF0095B5EB /* MoviesLoginViewController.swift in Sources */,
 				AC15DED9284130BF0095B5EB /* AppDelegate.swift in Sources */,
-				AC53589F2845D6C000C7D064 /* Movies.swift in Sources */,
-				AC53589D2845D69000C7D064 /* Request.swift in Sources */,
 				AC15DEDB284130BF0095B5EB /* SceneDelegate.swift in Sources */,
 				AC5358992845A63D00C7D064 /* RegisterViewController.swift in Sources */,
 			);

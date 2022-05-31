@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>737933752034-4bp5srlp2pft93ej0tih8f3kea9nk0r9.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.737933752034-4bp5srlp2pft93ej0tih8f3kea9nk0r9</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC297nUdM8LI4EQFUDPQZMiD7PrrDTjQHI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>737933752034</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>PulseAtWork.MoviesList</string>
+	<key>PROJECT_ID</key>
+	<string>coffee-19961</string>
+	<key>STORAGE_BUCKET</key>
+	<string>coffee-19961.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:737933752034:ios:1189693f4d2474fff250bb</string>
+</dict>
+</plist>
