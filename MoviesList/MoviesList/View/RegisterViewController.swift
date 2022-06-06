@@ -6,18 +6,23 @@
 //
 
 import UIKit
+import FirebaseCore
+import FirebaseAuth
 
 class RegisterViewController: UIViewController {
-
+    
+    var auth: Auth?
+    
     @IBOutlet weak var registerEmail: UITextField!
     @IBOutlet weak var registerPassword: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        self.auth = Auth.auth()
+        
     }
-
+    
     @IBAction func registerButton(_ sender: Any) {
         
         print("registrado")
